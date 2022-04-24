@@ -1,12 +1,9 @@
-import os
-from subprocess import Popen, PIPE, STDOUT
-import sys
-import time
-import webbrowser
-import streamlit as st
-import plotly.express as px
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import webbrowser
-import math
+os
+subprocess
+sys
+time
+webbrowser
+streamlit
+plotly.express
+numpy
+pandas
