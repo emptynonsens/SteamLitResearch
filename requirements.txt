@@ -1,4 +1,4 @@
-webbrowser
+pycopy-webbrowser
 streamlit
 plotly.express
 numpy
