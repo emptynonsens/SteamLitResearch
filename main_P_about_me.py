@@ -8,8 +8,8 @@ def page_about_me():
 
     linkedinLink = '[LinkedIn](https://pl.linkedin.com/in/kamilskoczylas96)'
     repoLink = '[GitHub](https://github.com/emptynonsens/SteamLitResearch)'
-    #st.markdown(linkedinLink, unsafe_allow_html=True)
-    #st.markdown(repoLink, unsafe_allow_html=True))
+    st.markdown(linkedinLink, unsafe_allow_html=True)
+    st.markdown(repoLink, unsafe_allow_html=True)
     #link_button('LinkedIn', linkedinLink)
     # link_button('GitHub', repoLink)
     #if st.sidebar.button('LinkedIn'):
