@@ -8,9 +8,12 @@ def page_about_me():
 
     linkedinLink = 'https://pl.linkedin.com/in/kamilskoczylas96'
     repoLink = 'https://github.com/emptynonsens/SteamLitResearch'
-    if st.sidebar.button('LinkedIn'):
-        webbrowser.open_new_tab(linkedinLink)
-    if st.sidebar.button('GitHub'):
-        webbrowser.open_new_tab(repoLink)
+    link_button('LinkedIn', linkedinLink)
+    link_button('GitHub', repoLink)
+    #if st.sidebar.button('LinkedIn'):
+    #    webbrowser.open_new_tab(linkedinLink)
+        
+    #if st.sidebar.button('GitHub'):
+    #    webbrowser.open_new_tab(repoLink)
 
     st.text('This set of dashboards was prepared to ilustrate possibilities of this Streamlit.')
