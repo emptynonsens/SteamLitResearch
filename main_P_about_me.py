@@ -7,7 +7,7 @@ def page_about_me():
     st.text('This set of dashboards was prepared to illustrate possibilities of this Streamlit.')
 
     linkedinLink = 'https://pl.linkedin.com/in/kamilskoczylas96'
-    repoLink = 'https://github.com/emptynonsens/SteamLitResearch'
+    repoLink = '[GitHub]https://github.com/emptynonsens/SteamLitResearch'
     st.markdown(linkedinLink, unsafe_allow_html=True)
     st.markdown(repoLink, unsafe_allow_html=True)
     #link_button('LinkedIn', linkedinLink)
