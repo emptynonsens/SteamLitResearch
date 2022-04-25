@@ -9,8 +9,10 @@ def page_about_me():
 
     linkedinLink = 'https://pl.linkedin.com/in/kamilskoczylas96'
     repoLink = 'https://github.com/emptynonsens/SteamLitResearch'
-    link_button('LinkedIn', linkedinLink)
-    link_button('GitHub', repoLink)
+    st.markdown(linkedinLink, unsafe_allow_html=True)
+    st.markdown(repoLink, unsafe_allow_html=True)
+    #link_button('LinkedIn', linkedinLink)
+   # link_button('GitHub', repoLink)
     #if st.sidebar.button('LinkedIn'):
     #    webbrowser.open_new_tab(linkedinLink)
         
