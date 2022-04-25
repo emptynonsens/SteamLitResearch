@@ -6,10 +6,11 @@ def page_about_me():
     st.subheader('About me')
     st.text('This set of dashboards was prepared to illustrate possibilities of this Streamlit.')
 
-    linkedinLink = 'https://pl.linkedin.com/in/kamilskoczylas96/en?trk=people-guest_people_search-card'
+    linkedinLink = 'https://pl.linkedin.com/in/kamilskoczylas96'
+    repoLink = 'https://github.com/emptynonsens/SteamLitResearch'
     if st.sidebar.button('LinkedIn'):
         webbrowser.open_new_tab(linkedinLink)
     if st.sidebar.button('GitHub'):
-        webbrowser.open_new_tab(linkedinLink)
+        webbrowser.open_new_tab(repoLink)
 
     st.text('This set of dashboards was prepared to ilustrate possibilities of this Streamlit.')
