@@ -13,13 +13,13 @@ m = css_html()
 dashboards = ['ABOUT ME', 'FUNCTION EXAMPLES', 'REPORTING POSSIBILITIES']
 dashboard = st.sidebar.selectbox('', (dashboards), 1) #, 'STOCK ANALYSIS', 'VISUALISATION EXAMPLES'
 
-if dashboard == 'ABOUT ME':
+if dashboard == dashboards[0]:
     page_about_me()
 
-if dashboard == 'FUNCTION EXAMPLES':
+if dashboard == dashboards[1]:
     page_function_examples()
 
-if dashboard == 'REPORTING POSSIBILITIES':
+if dashboard == dashboards[2]:
     page_report_possibilities()
 
 
